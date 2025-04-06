@@ -1,6 +1,6 @@
 # UI-Playground-iOS
 
-A collection of SwiftUI components and UI demonstrations for iOS development. This playground showcases modern iOS UI implementations and best practices.
+A comprehensive collection of SwiftUI components and UI demonstrations for iOS development. This playground showcases modern iOS UI implementations and best practices across various interaction patterns.
 
 ## Components
 
@@ -26,8 +26,6 @@ A modern implementation of context menus using UIEditMenuInteraction (iOS 16+):
 - Destructive action support
 - Clean SwiftUI integration
 
-[View Menu Documentation](./CustomMenuDemo/README.md)
-
 ### 3. Flyout Menu
 
 A customizable flyout menu for providing quick access to actions:
@@ -37,8 +35,6 @@ A customizable flyout menu for providing quick access to actions:
 - Touch feedback
 - Adaptive positioning
 
-[View Flyout Documentation](./flyout/README.md)
-
 ### 4. Post Interactions
 
 Demo showcasing social media-style post interactions:
@@ -46,8 +42,7 @@ Demo showcasing social media-style post interactions:
 - Like/comment functionality
 - Animated reactions
 - Gesture-based interactions
-
-[View Post Demo Documentation](./PostDemo/README.md)
+- Tag suggestions with emoji support
 
 ### 5. Text Menu Customization
 
@@ -58,4 +53,34 @@ Extended text selection menu with custom actions:
 - Selection highlighting
 - Contextual actions
 
-[View Custom Text Menu Documentation](./CustomTextMenuDemo/README.md)
+### 6. Multi-language Post Creator
+
+A specialized post creation interface with language translation capabilities:
+
+- Tag management system
+- Form validation
+- Translation functionality
+- Clean collection-based interface
+
+### 7. Calendar Components
+
+Custom calendar implementation with modern SwiftUI design:
+
+- Date selection and navigation
+- Event visualization
+- Date range support
+- Customizable appearance
+
+## Requirements
+
+- iOS 16.0+ (some components may work with iOS 13.0+)
+- Xcode 14.0+
+- Swift 5.7+
+
+## Installation
+
+Clone this repository to explore all components:
+
+```bash
+git clone https://github.com/yourusername/UI-Playground-iOS.git
+cd UI-Playground-iOS
